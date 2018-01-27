@@ -21,7 +21,6 @@ class AppController
     { 
         $fields = [
             'phone' => new AssertPhoneNumber([
-                        'value' => $data['phone'], 
                         'message' => 'Wrong phone number',
                         'type' => "mobile", # //optional
                         'defaultRegion' => "GB", # //optional
