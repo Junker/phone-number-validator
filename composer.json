@@ -1,0 +1,21 @@
+{
+    "name": "junker/phone-number-validator",
+    "description": "PhoneNumber validation component for Symfony based frameworks (Symfony, Silex, Drupal etc.)",
+    "keywords": ["symfony", "silex", "validation", "validator", "phone-number", "phonenumber", "telephone number", "libphonenumber"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.9",
+        "giggsey/libphonenumber-for-php": "~5.7|~6.0|~7.0|~8.0"
+    },
+    "require-dev": {
+        "symfony/validator": "~2.7|~3.0|~4.0"
+    },
+    "suggest": {
+        "symfony/validator": "Add a validation constraint"
+    },
+    "autoload": {
+        "psr-0": {
+            "Junker": "src/"
+        }
+    }
+}
