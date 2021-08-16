@@ -3,7 +3,7 @@
 PhoneNumber validation component for Symfony based frameworks (Symfony, Silex, Drupal etc.)
 
 ## Installation
-The best way to install JSendResponse is to use a [Composer](https://getcomposer.org/download):
+The best way to install phone-number-validator is to use a [Composer](https://getcomposer.org/download):
 
     php composer.phar require junker/phone-number-validator
 
